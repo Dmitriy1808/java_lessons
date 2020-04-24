@@ -17,13 +17,13 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-        Developer dev_0 = new Developer(0, makeName(devNames[0], devSurnames[0], devLastnames[0]), "devops@test.com", 17);//(int) (Math.random() * 100));
-        Developer dev_1 = new Developer(1, makeName(devNames[1], devSurnames[1], devLastnames[1]), "devops@test.com", 59);//(int) (Math.random() * 100));
-        Developer dev_2 = new Developer(2, makeName(devNames[2], devSurnames[2], devLastnames[2]), "devops@test.com", 57);//(int) (Math.random() * 100));
+        Developer dev_0 = new Developer(0, makeName(devNames[0], devSurnames[0], devLastnames[0]), "devops@test.com", 17);
+        Developer dev_1 = new Developer(1, makeName(devNames[1], devSurnames[1], devLastnames[1]), "devops@test.com", 59);
+        Developer dev_2 = new Developer(2, makeName(devNames[2], devSurnames[2], devLastnames[2]), "devops@test.com", 57);
 
-        Manager man_0 = new Manager(0, makeName(manNames[0], manSurnames[0], manLastnames[0]), "managers@test.com", 52);//(int) (Math.random() * 100));
-        Manager man_1 = new Manager(1, makeName(manNames[1], manSurnames[1], manLastnames[1]), "managers@test.com", 62);//(int) (Math.random() * 100));
-        Manager man_2 = new Manager(2, makeName(manNames[2], manSurnames[2], manLastnames[2]), "managers@test.com", 53);//(int) (Math.random() * 100));
+        Manager man_0 = new Manager(0, makeName(manNames[0], manSurnames[0], manLastnames[0]), "managers@test.com", 52);
+        Manager man_1 = new Manager(1, makeName(manNames[1], manSurnames[1], manLastnames[1]), "managers@test.com", 62);
+        Manager man_2 = new Manager(2, makeName(manNames[2], manSurnames[2], manLastnames[2]), "managers@test.com", 53);
 
         Statistic<Developer> devKPI = new Statistic<>();
         Statistic<Manager> manKPI = new Statistic<>();
